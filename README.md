@@ -44,13 +44,13 @@ Move Inside the Directory:   <br/>
  
 Clone The Repo: <br/>
 `git clone https://github.com/rajakamanishsingh/
-Securing-IoT-Devices-Using-Cryptography-and-Steganography-Techniques-/
+Securing-IoT-Devices-Using-Cryptography-and-Steganography-Techniques/
 
 
  <br/>
  
 Move Inside The Clone Repo: <br/>
-`cd Securing-IoT-Devices-Using-Cryptography-and-Steganography-Techniques-
+`cd Securing-IoT-Devices-Using-Cryptography-and-Steganography-Techniques
 
 
  <br/>
