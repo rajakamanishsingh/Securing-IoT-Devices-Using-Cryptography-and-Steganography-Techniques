@@ -1,0 +1,90 @@
+{% extends "main.html" %}
+
+
+
+{% block content %}
+
+
+<br><br>
+<div class="jumbotron jumbotron-fluid bg-dark text-white">
+  <div class="container">
+    <h1 class="display-4"><center>Welcome To the Encrypter <i class="fas fa-home"></i>  !!!</center></h1>
+    <p class="lead">
+    	<center>
+    		<i class="fas fa-eye-slash"></i>  Feel free to encrypt any text you like trust us It will be confidential.
+    	</center>
+	</p>
+  </div>
+</div>
+
+<br><br><br><br>
+
+
+
+<div class="jumbotron jumbotron-fluid " style="width:800px ;margin:auto;">
+  <div class="container">
+    <h1 class="display-4"><center><b>ENCRYPTION</b></center></h1>
+    <p class="lead">
+    	<center>
+    			 <form action="{{url_for('decrypt')}}" method="POST">
+					<label for="PLAIN_TEXT">Enter You Text</label>
+					<input type="text" name="PLAIN_TEXT" placeholder="Please Type Something..." ><br>
+
+
+	 				#Upload Image herre upload Button ..  do it later No worry 
+
+					<input type="submit" value="ENCRYPT">
+				</form>
+ 
+
+
+
+
+
+
+<form class="was-validated" action="{{url_for('decrypt')}}" method="POST" enctype="multipart/form-data">
+  <div class="mb-3">
+    <label for="validationTextarea" class="form-label">Enter Your Text</label>
+    <textarea name="PLAIN_TEXT" class="form-control is-invalid" id="validationTextarea" placeholder="Please Type Something..." required autofocus></textarea>
+    <!-- <div class="invalid-feedback">
+      Please enter anything in textarea.
+    </div> -->
+  </div>
+
+
+<br><br>
+
+  <label for="image" class="form-label"><center>Upload Cover Image</center></label>
+  <div class="mb-3">
+    <input name="file" type="file"  autocomplete="off" class="form-control" required>
+<!--     <div class="invalid-feedback">Error File not uploaded</div> -->
+  </div>
+
+
+  <div class="mb-3">
+    <!-- <button class="btn btn-primary" type="submit" >Encrypt</button> -->
+    <button type="submit" class="btn btn-outline-success">Encrypt</button>
+  </div>
+</form>
+
+
+
+
+
+     	</center>
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+
