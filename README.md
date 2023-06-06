@@ -4,17 +4,12 @@ framework to demonstrate the combination of cryptography that is based on symmet
 steganography that is based on modified LSB which helps to provide security to confidential data over
 an unsecured network.</p>
 
-# Project Team Members :
-<ul>
-<li><b>Awanit Ranjan (181CO161) </b></li>
-<li><b>Rutwik Mulay (181CO144)</b></li>
-<li><b>Kshitij Raj (181CO129) </b></li>
-</ul>
+
 
 <br>
 
 
-Feel Free to head to this Youtube Video  for demo of the project : https://youtu.be/N4Kap2nE2Pc 
+
 
 # METHODOLOGY : 
 <div>
@@ -50,13 +45,13 @@ Move Inside the Directory:   <br/>
  
  
 Clone The Repo: <br/>
-`git clone https://github.com/Awanit512/Implementation-of-securing-data-using-Crypto-and-Stegano`
+`git clone https://github.com/rajakamanishsingh/Securing-IoT-Devices-Using-Cryptography-and-Steganography-Techniques/'
 
 
  <br/>
  
 Move Inside The Clone Repo: <br/>
-`cd Implementation-of-securing-data-using-Crypto-and-Stegano`
+`cd Securing-IoT-Devices-Using-Cryptography-and-Steganography-Techniques`
 
 
  <br/>
@@ -74,10 +69,3 @@ After that Copy the link http://127.0.0.1:5000/ and paste it on your Broswe and 
 
  <br/>
 
-# REFERENCES
-
-[1] Marwa E. Saleh Abdel Magied A. Aly Fatma A. Omara. CSE from Minia University, ​ Data Security Using Cryptography and
-Steganography Techniques . ​ International Journal of Advanced Computer Science and applications, 2016.
-
-[2] Ms. Hemlata Sharma, Ms. MithleshArya, and Mr. Dinesh Goyal. Department of CSE ​ Secure Image Hiding Algorithm using
-Cryptography and Steganography. 2013
